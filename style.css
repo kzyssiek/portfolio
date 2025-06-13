@@ -1,7 +1,7 @@
 /* Ogólne style */
 :root {
-    --primary-color: #007bff; /* Główny kolor akcentujący */
-    --secondary-color: #6c757d; /* Kolor dodatkowy */
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
     --text-color: #333;
     --bg-color: #f8f9fa;
     --light-bg: #ffffff;
@@ -247,8 +247,8 @@ section:nth-of-type(even) {
 
 .project-card .button {
     margin: 0 20px 20px 20px;
-    width: calc(100% - 40px); /* Dopasowanie szerokości przycisków */
-    box-sizing: border-box; /* Uwzględnienie paddingu w szerokości */
+    width: calc(100% - 40px); 
+    box-sizing: border-box; 
 }
 
 /* Kontakt */
@@ -340,7 +340,7 @@ footer {
     }
 
     .project-card .button {
-        width: auto; /* Zresetuj dla mobilnych, aby nie rozciągały się na całą szerokość */
+        width: auto;
         display: block;
         margin: 10px 20px;
     }
